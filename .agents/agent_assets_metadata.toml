@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "IIXJjlcIK2E4AFzHiI6lN"
+uri = "file://artifacts/website/public/hero-bg.png"
+type = "image"
+title = "Abstract warm architectural detail"
