@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm --filter @workspace/website run build",
+  "outputDirectory": "artifacts/website/dist/public",
+  "framework": null,
+  "build": {
+    "env": {
+      "BASE_PATH": "/",
+      "PORT": "3000",
+      "NODE_ENV": "production"
+    }
+  },
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
